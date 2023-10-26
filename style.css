@@ -1,0 +1,111 @@
+body{
+    overflow-wrap: normal;
+}
+
+.card-group {
+    margin: 20px; /* Add margin to create space around the card group */
+}
+
+.card {
+    margin: 10px; /* Add margin to create space between the cards */
+}
+/* Style the overlay */
+.call-action.overlay {
+    background-image: url('./img/slider3.jpg'); /* Replace with your image file path */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+/* Center-align text and buttons */
+.call-action .content {
+    text-align: center;
+}
+
+/* Style the heading */
+.call-action h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Style the paragraph */
+.call-action p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Style the buttons */
+.call-action .button .btn {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.call-action .button .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Style the "Learn More" icon */
+.call-action .button .btn i {
+    margin-left: 5px;
+}
+#contact {
+    background-color:#0056b3;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Custom styles for the Review section */
+
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* Custom CSS for responsive titles in the carousel */
+ /* Custom CSS for carousel text */
+ .carousel-caption h1 {
+    font-size: 2rem; /* Base font size */
+}
+
+/* Adjust the font size for smaller screens (phones) */
+@media (max-width: 576px) {
+    .carousel-caption h1 {
+        font-size: 1rem;
+    }
+}
+
+/* Custom CSS for the button inside the carousel */
+.carousel-caption a.btn {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px; /* Adjust the button padding for proper spacing */
+    border-radius: 25px; /* Add some border radius for a rounded button */
+}
+
+/* Custom CSS for the button hover effect */
+.carousel-caption a.btn:hover {
+    background-color: #0056b3; /* Button background color on hover */
+}
+
+/* Custom CSS to adjust the button width for responsiveness */
+.w-50 {
+    width: 50%; /* 50% width for small screens */
+}
+
+@media (min-width: 768px) {
+    /* Adjust the button width for medium and larger screens */
+    .w-md-25 {
+        width: 25%;
+    }
+}
+
